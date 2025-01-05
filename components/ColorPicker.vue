@@ -1,12 +1,12 @@
 <!-- components/ColorPicker.vue -->
 <template>
-  <div class="color-picker" :style="{ backgroundColor: '#12151e' }">
-    <div class="grid">
+  <transition name="fade-scale">
+    <div class="grid" v-if="show">
       <label v-for="color in colors" :key="color" :style="{ backgroundColor: color }" class="color-cell">
         <input type="radio" :value="color" v-model="selectedColor" @change="changeTheme" />
       </label>
     </div>
-  </div>
+  </transition>
 </template>
 
 <script setup>
@@ -23,6 +23,7 @@ const colors = [
 ]
 const selectedColor = ref(colorMode.preference)
 const emit = defineEmits(['colorChanged'])
+const show = ref(true)
 
 const changeTheme = () => {
   colorMode.preference = 'custom'
@@ -43,15 +44,18 @@ const getContrastingColor = (color) => {
 
 <style scoped>
 .color-picker {
+  background-color: transparent;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 10px;
+  padding: 10px;
+  background-color: transparent;
 }
 .color-cell { 
   width: 40px;
@@ -64,5 +68,12 @@ const getContrastingColor = (color) => {
 }
 .color-cell input {
   display: none;
+}
+.fade-scale-enter-active, .fade-scale-leave-active {
+  transition: all 0.5s ease;
+}
+.fade-scale-enter, .fade-scale-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
 }
 </style>

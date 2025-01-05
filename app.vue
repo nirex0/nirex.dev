@@ -1,13 +1,15 @@
 <template>
   <NuxtLayout>
     <NuxtPage />
-    <div class="color-picker-container" v-if="showColorPicker" ref="colorPickerContainer">
-      <ColorPicker @colorChanged="handleColorChanged" />
-    </div>
+    <transition name="fade-out">
+      <div class="color-picker-container" v-if="showColorPicker" ref="colorPickerContainer">
+        <ColorPicker @colorChanged="handleColorChanged" />
+      </div>
+    </transition>
     <button class="toggle-button" @click.stop="toggleColorPicker">
       <!-- Use a font-awesome icon here that represents a color picker -->
       <font-awesome icon="palette" />   
-     </button>
+    </button>
   </NuxtLayout>
 </template>
 
@@ -92,9 +94,9 @@ body {
 
 .color-picker-container {
   position: fixed;
-  bottom: 60px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   background: #12151e;
   padding: 10px;
   border-radius: 8px;
@@ -105,8 +107,7 @@ body {
 .toggle-button {
   position: fixed;
   bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 20px;
   padding: 10px 20px;
   background-color: var(--color-custom-bg, #0C0C0C);
   color: var(--color-custom-text, white);
@@ -119,4 +120,15 @@ body {
 .toggle-button:hover {
   opacity: 0.8;
 }
+
+.fade-out-enter-active, .fade-out-leave-active, .fade-in-enter, .fade-in-leave-to {
+  transition: all 0.1s ease;
+}
+.fade-out-enter, .fade-out-leave-to {
+  opacity: 0;
+}
+.fade-in-enter, .fade-in-leave-to {
+  opacity: 1;
+}
+
 </style>
