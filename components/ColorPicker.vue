@@ -14,7 +14,13 @@
 // import { ref, defineEmits } from 'vue'
 
 const colorMode = useColorMode()
-const colors = ['#FFB800', '#FF5733', '#33FF57', '#3357FF', '#FF33A1', '#A133FF', '#33FFF5', '#F5FF33', '#FF8C33', '#8CFF33', '#338CFF', '#FF338C', '#8C33FF', '#33FF8C', '#FF338C', '#FF8C33', '#8CFF33', '#338CFF', '#FF338C', '#8C33FF']
+const colors = [
+  '#FF0000', '#FF4000', '#FF8000', '#FFBF00', '#FFFF00',
+  '#BFFF00', '#80FF00', '#40FF00', '#00FF00', '#00FF40',
+  '#00FF80', '#00FFBF', '#00FFFF', '#00BFFF', '#0080FF',
+  '#0040FF', '#0000FF', '#4000FF', '#8000FF', '#BF00FF',
+  '#FF00FF', '#FF00BF', '#FF0080', '#FF0040', '#FF0000'
+]
 const selectedColor = ref(colorMode.preference)
 const emit = defineEmits(['colorChanged'])
 
