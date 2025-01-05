@@ -98,7 +98,7 @@
 
 
 
-                <div class="flex flex-wrap justify-center gap-4 mt-10">
+                <div class="flex flex-wrap justify-center gap-4 mt-10 mb-10">
                     <button
                         @click="downloadCV"
                         :style="{ background: 'var(--color-custom-text)', color: 'var(--color-custom-bg)' }"
@@ -106,6 +106,9 @@
                         CV
                         <font-awesome icon="file-pdf" class="h-6 w-6" :style="{ color: 'var(--color-custom-bg)' }"/>   
                     </button>
+                </div>
+                <div class="mb-5" :style="{color: '#00000000'}">
+                    A
                 </div>
             </div>
         </div>
