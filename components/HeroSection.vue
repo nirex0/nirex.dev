@@ -63,7 +63,7 @@
                 </p>
                 
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
-                    If I want to say two things, it's to have your teammate's back with the code you write, And to reduce costs.
+                    If I want to say two things, it's to have your teammate's back with the code you write, And be fast in delivering the necessities.
                 </p>
 
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
