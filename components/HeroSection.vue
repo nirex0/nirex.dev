@@ -1,0 +1,172 @@
+<template>
+    <div class="relative min-h-screen overflow-hidden " :style="{background: 'var(--color-custom-bg)'}">
+        <!-- Animated gradient blobs -->
+        <div class="absolute inset-0 overflow-hidden">
+            <!-- First blob -->
+            <div class="blob blob-1 absolute w-[800px] h-[800px] rounded-full blur-[120px] opacity-70"
+                 :style="{ background: 'linear-gradient(to right, var(--color-custom-text) 20%, transparent)' }">
+            </div>
+
+            <!-- Second blob -->
+            <div class="blob blob-2 absolute w-[600px] h-[600px] rounded-full blur-[90px] opacity-60"
+                 :style="{ background: 'linear-gradient(to right, var(--color-custom-text) 15%, transparent)' }">
+            </div>
+
+            <!-- Third blob -->
+            <div class="blob blob-3 absolute w-[900px] h-[900px] rounded-full blur-[150px] opacity-50"
+                 :style="{ background: 'linear-gradient(to right, var(--color-custom-text) 10%, transparent)' }">
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="relative z-10 px-6 py-4">
+            <div class="container mx-auto flex items-center justify-between">
+                <NuxtLink to="https://nirex.dev" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }">
+                    <div class="flex items-center space-x-2">
+                        <font-awesome icon="desktop" class="h-6 w-6" :style="{ color: 'var(--color-custom-text)' }"/>   
+                        <span class="text-xl font-semibold" :style="{ color: 'var(--color-custom-text)' }">Nirex</span>
+                    </div>
+                </NuxtLink>
+                <div class="flex items-center space-x-6">
+                    <NuxtLink to="https://github.com/nirex0" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon"/>
+                    </NuxtLink>
+                    <NuxtLink to="https://linkedin.com/in/aryan-mousavi" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-linkedin :style="{ color: 'var(--color-custom-text)' }" alt="LinkedIn Icon"/>                        
+                    </NuxtLink>
+                    <NuxtLink to="https://x.com/TheHazardousOne" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-x :style="{ color: 'var(--color-custom-text)' }" alt="Telegram Icon"/>
+                    </NuxtLink>
+                    <NuxtLink to="https://www.youtube.com/@Nirex_" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-youtube :style="{ color: 'var(--color-custom-text)' }" alt="Youtube Icon"/>
+                    </NuxtLink>
+                    <NuxtLink to="https://t.me/Intelligenxe" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-telegram :style="{ color: 'var(--color-custom-text)' }" alt="Telegram Icon"/>
+                    </NuxtLink>
+                    <NuxtLink to="https://www.instagram.com/n.i.r.e.x/" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-instagram :style="{ color: 'var(--color-custom-text)' }" alt="Instagram Icon"/>
+                    </NuxtLink>
+                    <NuxtLink to="mailto://aryan.mousavi.dev@gmail.com" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-gmail :style="{ color: 'var(--color-custom-text)' }" alt="Gmail Icon"/>
+                    </NuxtLink>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 container mx-auto px-6 pt-32 text-center">
+            <div class="clip-container" :class="{ 'reveal': isRevealed }">
+                <h1 class="text-6xl md:text-7xl font-bold mb-4" :style="{ color: 'var(--color-custom-text)' }">
+                    Aryan Mousavi
+                </h1>
+                <h2 class="text-white text-3xl md:text-4xl font-semibold mb-4">
+                    Software Engineer
+                </h2>
+                <p class="text-gray-400 text-md mb-0 max-w-2xl mx-auto">
+                    Full Stack programmer with 10+ years of coding experience.
+                </p>
+                
+                <p class="text-gray-400 text-md mb-4 max-w-2xl mx-auto">
+                    C++, C#, Python, Dart, TS, JS, HTML, CSS, SQL, NoSQL, REST, Docker, and more.
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button
+                        @click="downloadCV"
+                        :style="{ background: 'var(--color-custom-text)', color: 'var(--color-custom-bg)' }"
+                        class="px-6 py-2 text-[#12151e] rounded-full font-medium transition-colors flex items-center gap-2">
+                        CV
+                        <font-awesome icon="file-pdf" class="h-6 w-6" :style="{ color: 'var(--color-custom-bg)' }"/>   
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script setup>
+
+const downloadCV = () => {
+    const link = document.createElement('a')
+    link.href = '/AryanCV.pdf'
+    link.download = 'AryanCV.pdf'
+    link.target = '_blank'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+}
+
+const isRevealed = ref(false)
+
+onMounted(() => {
+    setTimeout(() => {
+        isRevealed.value = true
+    }, 100)
+})
+</script>
+
+<style scoped>
+.clip-container {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clip-container.reveal {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animated blobs */
+.blob {
+    will-change: transform;
+    animation: blob-float 20s infinite;
+    position: absolute;
+}
+
+.blob-1 {
+    top: -20%;
+    left: -10%;
+    animation-delay: 0s;
+}
+
+.blob-2 {
+    top: 30%;
+    right: -20%;
+    animation-delay: -5s;
+}
+
+.blob-3 {
+    bottom: -30%;
+    left: 20%;
+    animation-delay: -10s;
+}
+
+@keyframes blob-float {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(100px, 50px) rotate(90deg);
+    }
+
+    40% {
+        transform: translate(50px, -50px) rotate(180deg);
+    }
+
+    60% {
+        transform: translate(-50px, 100px) rotate(270deg);
+    }
+
+    80% {
+        transform: translate(-100px, -50px) rotate(360deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(0deg);
+    }
+}
+</style>
