@@ -8,7 +8,7 @@
     </transition>
     <button class="toggle-button" @click.stop="toggleColorPicker">
       <!-- Use a font-awesome icon here that represents a color picker -->
-      <font-awesome icon="palette" />   
+      <font-awesome icon="palette" class="transition-colors duration-1000" />   
     </button>
   </NuxtLayout>
 </template>

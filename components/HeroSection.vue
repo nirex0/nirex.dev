@@ -1,20 +1,20 @@
 <template>
-    <div class="relative min-h-screen overflow-hidden " :style="{background: 'var(--color-custom-bg)'}">
+    <div class="relative min-h-screen overflow-hidden transition-colors duration-1000" :style="{background: 'var(--color-custom-bg)'}">
         <!-- Animated gradient blobs -->
-        <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute inset-0 overflow-hidden transition-colors duration-1000">
             <!-- First blob -->
-            <div class="blob blob-1 absolute w-[800px] h-[800px] rounded-full blur-[120px] opacity-70"
-                 :style="{ background: 'linear-gradient(to right, var(--color-custom-text) 20%, transparent)' }">
+            <div class="blob blob-1 absolute w-[800px] h-[800px] rounded-full blur-[120px] opacity-70 transition-colors duration-1000"
+                 :style="{ background: 'var(--color-custom-text)' }">
             </div>
 
             <!-- Second blob -->
-            <div class="blob blob-2 absolute w-[600px] h-[600px] rounded-full blur-[90px] opacity-60"
-                 :style="{ background: 'linear-gradient(to right, var(--color-custom-text) 15%, transparent)' }">
+            <div class="blob blob-2 absolute w-[600px] h-[600px] rounded-full blur-[90px] opacity-60 transition-colors duration-1000"
+                :style="{ background: 'var(--color-custom-text)' }">
             </div>
 
             <!-- Third blob -->
-            <div class="blob blob-3 absolute w-[900px] h-[900px] rounded-full blur-[150px] opacity-50"
-                 :style="{ background: 'linear-gradient(to right, var(--color-custom-text) 10%, transparent)' }">
+            <div class="blob blob-3 absolute w-[900px] h-[900px] rounded-full blur-[150px] opacity-50 transition-colors duration-1000"
+                :style="{ background: 'var(--color-custom-text)' }">
             </div>
         </div>
         
@@ -23,26 +23,27 @@
             <div class="container mx-auto flex items-center justify-center">
   
                 <div class="flex items-center space-x-6">
-                    <NuxtLink to="https://github.com/nirex0" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon"/>
+                    <NuxtLink to="https://github.com/nirex0" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                     
+                        <svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
-                    <NuxtLink to="https://linkedin.com/in/aryan-mousavi" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-linkedin :style="{ color: 'var(--color-custom-text)' }" alt="LinkedIn Icon"/>                        
+                    <NuxtLink to="https://linkedin.com/in/aryan-mousavi" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-linkedin :style="{ color: 'var(--color-custom-text)' }" alt="LinkedIn Icon" class="transition-colors duration-1000"/>                        
                     </NuxtLink>
-                    <NuxtLink to="https://x.com/TheHazardousOne" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-x :style="{ color: 'var(--color-custom-text)' }" alt="Telegram Icon"/>
+                    <NuxtLink to="https://x.com/TheHazardousOne" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-x :style="{ color: 'var(--color-custom-text)' }" alt="Telegram Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
-                    <NuxtLink to="https://www.youtube.com/@Nirex_" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-youtube :style="{ color: 'var(--color-custom-text)' }" alt="Youtube Icon"/>
+                    <NuxtLink to="https://www.youtube.com/@Nirex_" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-youtube :style="{ color: 'var(--color-custom-text)' }" alt="Youtube Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
-                    <NuxtLink to="https://t.me/Intelligenxe" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-telegram :style="{ color: 'var(--color-custom-text)' }" alt="Telegram Icon"/>
+                    <NuxtLink to="https://t.me/Intelligenxe" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-telegram :style="{ color: 'var(--color-custom-text)' }" alt="Telegram Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
-                    <NuxtLink to="https://www.instagram.com/n.i.r.e.x/" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-instagram :style="{ color: 'var(--color-custom-text)' }" alt="Instagram Icon"/>
+                    <NuxtLink to="https://www.instagram.com/n.i.r.e.x/" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-instagram :style="{ color: 'var(--color-custom-text)' }" alt="Instagram Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
-                    <NuxtLink to="mailto://aryan.mousavi.dev@gmail.com" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                        <svgo-gmail :style="{ color: 'var(--color-custom-text)' }" alt="Gmail Icon"/>
+                    <NuxtLink to="mailto://aryan.mousavi.dev@gmail.com" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                        <svgo-gmail :style="{ color: 'var(--color-custom-text)' }" alt="Gmail Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
                 </div>
             </div>
@@ -51,7 +52,7 @@
         <!-- Hero Content -->
         <div class="relative z-10 container mx-auto px-6 pt-32 text-center">
             <div class="clip-container" :class="{ 'reveal': isRevealed }">
-                <h1 class="text-6xl md:text-7xl font-bold mb-4" :style="{ color: 'var(--color-custom-text)' }">
+                <h1 class="text-6xl md:text-7xl font-bold mb-4 transition-colors duration-1000" :style="{ color: 'var(--color-custom-text)' }">
                     Aryan Mousavi
                 </h1>
                 <h2 class="text-white text-3xl md:text-4xl font-semibold mb-4">
@@ -102,7 +103,7 @@
                     <button
                         @click="downloadCV"
                         :style="{ background: 'var(--color-custom-text)', color: 'var(--color-custom-bg)' }"
-                        class="px-6 py-2 text-[#12151e] rounded-full font-medium transition-colors flex items-center gap-2">
+                        class="px-6 py-2 text-[#12151e] rounded-full font-medium transition-colors duration-1000 flex items-center gap-2">
                         CV
                         <font-awesome icon="file-pdf" class="h-6 w-6" :style="{ color: 'var(--color-custom-bg)' }"/>   
                     </button>
@@ -152,9 +153,10 @@ onMounted(() => {
 
 /* Animated blobs */
 .blob {
-    will-change: transform;
-    animation: blob-float 20s infinite;
-    position: absolute;
+  will-change: transform, background;
+  animation: blob-float 20s infinite;
+  position: absolute;
+  transition: background 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .blob-1 {
