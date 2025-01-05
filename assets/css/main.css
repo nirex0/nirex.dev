@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-color: #FFB800;
+  --background-color: #0C0C0C;
+  --text-color: #FFFFFF;
+  --text-color-secondary: #A0AEC0;
+}
+
+body {
+  @apply bg-[#0C0C0C] text-white;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+a {
+  @apply text-[#FFB800] hover:text-[#FFD700] transition-colors duration-200;
+}
+
+.btn {
+  @apply px-6 py-2 rounded-full font-medium transition-colors duration-200;
+}
+
+.btn-primary {
+  @apply bg-[#FFB800] text-black hover:bg-[#FFB800]/90;
+}
+
+.btn-secondary {
+  @apply bg-white/10 text-white hover:bg-white/20;
+}
+
+.container {
+  @apply px-4 mx-auto;
+  max-width: 1200px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#FFB800] rounded-full;
+}
+
+/* Animated background gradient */
+.bg-animated {
+  background: linear-gradient(
+    -45deg, 
+    #FFB800, 
+    #FF8C00, 
+    #FF4500, 
+    #8B4000
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Responsive typography */
+@screen sm {
+  html {
+    font-size: 14px;
+  }
+}
+
+@screen md {
+  html {
+    font-size: 16px;
+  }
+}
+
+@screen lg {
+  html {
+    font-size: 18px;
+  }
+}
