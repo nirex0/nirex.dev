@@ -20,13 +20,8 @@
         
         <!-- Navigation -->
         <nav class="relative z-10 px-6 py-4">
-            <div class="container mx-auto flex items-center justify-between">
-                <NuxtLink to="https://nirex.dev" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }">
-                    <div class="flex items-center space-x-2">
-                        <font-awesome icon="desktop" class="h-6 w-6" :style="{ color: 'var(--color-custom-text)' }"/>   
-                        <span class="text-xl font-semibold" :style="{ color: 'var(--color-custom-text)' }">Nirex</span>
-                    </div>
-                </NuxtLink>
+            <div class="container mx-auto flex items-center justify-center">
+  
                 <div class="flex items-center space-x-6">
                     <NuxtLink to="https://github.com/nirex0" class="text-xl transition-colors" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
                         <svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon"/>

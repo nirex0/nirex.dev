@@ -1,4 +1,3 @@
-// filepath: /Users/xenox/Projects/nirex.dev/app.vue
 <template>
   <NuxtLayout>
     <NuxtPage />
@@ -100,6 +99,7 @@ body {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 .toggle-button {
@@ -113,6 +113,7 @@ body {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  z-index: 1001;
 }
 
 .toggle-button:hover {
