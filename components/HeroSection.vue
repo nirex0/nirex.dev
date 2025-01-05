@@ -57,11 +57,11 @@
                 <h2 class="text-white text-3xl md:text-4xl font-semibold mb-4">
                     Software Engineer
                 </h2>
-                <p class="text-gray-400 text-md mb-0 max-w-2xl mx-auto">
+                <p class="text-white text-md mb-0 max-w-2xl mx-auto">
                     Full Stack programmer with 10+ years of coding experience.
                 </p>
                 
-                <p class="text-gray-400 text-md mb-4 max-w-2xl mx-auto">
+                <p class="text-white text-md mb-4 max-w-2xl mx-auto">
                     C++, C#, Python, Dart, TS, JS, HTML, CSS, SQL, NoSQL, REST, Docker, and more.
                 </p>
 
