@@ -33,7 +33,7 @@
                     <NuxtLink to="https://www.instagram.com/n.i.r.e.x/" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
                         <svgo-instagram :style="{ color: 'var(--color-custom-text)' }" alt="Instagram Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
-                    <NuxtLink to="mailto://aryan.mousavi.dev@gmail.com" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
+                    <NuxtLink to="mailto:aryan.mousavi.dev@gmail.com" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
                         <svgo-gmail :style="{ color: 'var(--color-custom-text)' }" alt="Gmail Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
                 </div>
