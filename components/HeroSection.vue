@@ -1,30 +1,21 @@
 <template>
     <div class="relative min-h-screen overflow-hidden transition-colors duration-1000" :style="{background: 'var(--color-custom-bg)'}">
-        <!-- Animated gradient blobs -->
         <div class="absolute inset-0 overflow-hidden transition-colors duration-1000">
-            <!-- First blob -->
             <div class="blob blob-1 absolute w-[800px] h-[800px] rounded-full blur-[120px] opacity-70 transition-colors duration-1000"
                  :style="{ background: 'var(--color-custom-text)' }">
             </div>
-
-            <!-- Second blob -->
             <div class="blob blob-2 absolute w-[600px] h-[600px] rounded-full blur-[90px] opacity-60 transition-colors duration-1000"
                 :style="{ background: 'var(--color-custom-text)' }">
             </div>
-
-            <!-- Third blob -->
             <div class="blob blob-3 absolute w-[900px] h-[900px] rounded-full blur-[150px] opacity-50 transition-colors duration-1000"
                 :style="{ background: 'var(--color-custom-text)' }">
             </div>
         </div>
-        
-        <!-- Navigation -->
         <nav class="relative z-10 px-6 py-4">
             <div class="container mx-auto flex items-center justify-center">
   
                 <div class="flex items-center space-x-6">
                     <NuxtLink to="https://github.com/nirex0" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
-                     
                         <svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="transition-colors duration-1000"/>
                     </NuxtLink>
                     <NuxtLink to="https://linkedin.com/in/aryan-mousavi" class="text-xl" :style="{ color: 'var(--color-custom-text)' }" target="_blank">
@@ -48,8 +39,6 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Hero Content -->
         <div class="relative z-10 container mx-auto px-6 pt-32 text-center">
             <div class="clip-container" :class="{ 'reveal': isRevealed }">
                 <h1 class="text-6xl md:text-7xl font-bold mb-4 transition-colors duration-1000" :style="{ color: 'var(--color-custom-text)' }">
@@ -61,18 +50,15 @@
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
                     A dev dude who installed linux when he was 13 and deleted his entire data by accident. Learning about Programming / Hacking / AI / Game Development / Web Development / Mobile Development / Desktop Development since 2011.
                 </p>
-                
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
                     If I want to say two things, it's to have your teammate's back with the code you write, And be fast in delivering the necessities.
                 </p>
-
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
                     If I want to say more, then here's C++, C#, Java, Python, Dart, Vue, TS, JS, HTML, CSS, SQL, NoSQL, Containers, Microservices, Monoliths, Message Broker, Web Tech, Mathematical AI Tech, Computer Vision, WinAPI, Unreal Engine, All Platforms, Algorithm design, Malware, Blockchain, Encryption Algorithms, Malware Design techniques, Code Obfuscation, and more.
                 </p>
                 <ol class="list-decimal list-inside">
-                
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        Mavlink drone/rover controller multi-plat app with Dart Flutter.
+                        Mavlink drone/rover controller multi-plat app with Dart Flutter
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
                         C++ Unreal Engine Offline world simulation for vision model training
@@ -98,7 +84,6 @@
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
                         C# WPF Primary Flight Display library (PFD) [<NuxtLink to="https://github.com/nirex0/npilothud" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>][<NuxtLink to="https://www.youtube.com/watch?v=gUlBPrUYmx8" target="_blank" class=""><svgo-youtube :style="{ color: 'var(--color-custom-text)' }" alt="Youtube Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
                     </li>
-                    
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
                         Flutter Primary Flight Display library (PFD) [<NuxtLink to="https://github.com/nirex0/pfd" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>][<NuxtLink to="https://pub.dev/packages/pfd" target="_blank" class=""><svgo-dart :style="{ color: 'var(--color-custom-text)' }" alt="Dart Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
                     </li>
@@ -121,14 +106,11 @@
                         C++ data steganography app from scratch
                     </li>
                 </ol>
-
                 <p class="text-white text-left text-xl mb-0 mt-8 max-w-2xl mx-auto">
                 </p>
                 <p class="text-white text-left text-xl mb-8 max-w-2xl mx-auto">
                     So you see I can do pretty much whatever task that needs to be done, as learning is my main strength.
                 </p>
-
-
                 <figure class="max-w-screen-md mx-auto text-center">
                     <svg class="w-10 h-10 mx-auto mb-3 transition-color duration-1000" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 14" :style="{ background: 'transparent', fill: 'var(--color-custom-text)' }">
                         <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
@@ -148,10 +130,6 @@
                         </div>
                     </figcaption>
                 </figure>
-
-
-
-
                 <div class="flex flex-wrap justify-center gap-4 mt-10 mb-10">
                     <button
                         @click="downloadCV"
@@ -170,8 +148,7 @@
 </template>
 
 <script setup>
-import { FileX } from 'lucide-vue-next'
-
+const isRevealed = ref(false)
 
 const downloadCV = () => {
     const link = document.createElement('a')
@@ -182,8 +159,6 @@ const downloadCV = () => {
     link.click()
     document.body.removeChild(link)
 }
-
-const isRevealed = ref(false)
 
 onMounted(() => {
     setTimeout(() => {
