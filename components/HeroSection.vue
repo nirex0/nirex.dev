@@ -75,13 +75,13 @@
                         Mavlink drone/rover controller multi-plat app with Dart Flutter.
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        C++ Unreal Engine Offline world simulation for vision model training.
+                        C++ Unreal Engine Offline world simulation for vision model training
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        AI Virtual Try-On (VTON) with Python backend, Flutter app, and Arch Linux Apache PHP server.
+                        AI Virtual Try-On (VTON) with Python backend, Flutter app, and Arch Linux Apache PHP server
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        An Algorithm that could find the elevation of any given point on the map of the planet in O(1) time using Nasa's ASTERv003 Data.
+                        An Algorithm that could find the elevation of any given point on the map of the planet in O(1) time using Nasa's ASTERv003 Data
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
                         Windows C# WPF music player [<NuxtLink to="https://github.com/nirex0/nightsky" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
@@ -118,15 +118,14 @@
                         Remote Access Toolkit (RAT)
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        C++ data steganography app from scratch.
+                        C++ data steganography app from scratch
                     </li>
                 </ol>
 
                 <p class="text-white text-left text-xl mb-0 mt-8 max-w-2xl mx-auto">
-                    So you see I can do pretty much whatever task it is.
                 </p>
                 <p class="text-white text-left text-xl mb-8 max-w-2xl mx-auto">
-                    Learning is my main strength.
+                    So you see I can do pretty much whatever task that needs to be done, as learning is my main strength.
                 </p>
 
 
