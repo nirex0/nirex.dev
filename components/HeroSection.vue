@@ -56,10 +56,10 @@
                     Aryan Mousavi
                 </h1>
                 <h2 class="text-white text-3xl md:text-4xl font-semibold mb-4">
-                    Software Engineer
+                    Full Stack Software Engineer
                 </h2>
-                <p class="text-white text-left text-md mb-0 max-w-2xl mx-auto">
-                    Full Stack programmer with 10+ years of coding experience Before AI.
+                <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
+                    A Dev dude who installed linux when he was 13 and deleted his entire data by accident. Learning about Programming / Hacking / AI / Game Development / Web Development / Mobile Development / Desktop Development since 2011.
                 </p>
                 
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
@@ -67,13 +67,67 @@
                 </p>
 
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
-                    If I want to say more, then here's C++, C#, Java, Python, Dart, Vue, TS, JS, HTML, CSS, SQL, NoSQL, Containers, Microservices, Monoliths, Message Broker, Web Tech, AI Tech, WinAPI, Unreal Engine, All Platforms, and whatever else necessary.
+                    If I want to say more, then here's C++, C#, Java, Python, Dart, Vue, TS, JS, HTML, CSS, SQL, NoSQL, Containers, Microservices, Monoliths, Message Broker, Web Tech, AI Tech, WinAPI, Unreal Engine, All Platforms, Algorithm design, Malware, Blockchain, Encryption Algorithms, Malware Analysis / Design, Code Obfuscation, and more.
+                </p>
+                <ol class="list-decimal list-inside">
+                
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Mavlink drone/rover controller multi-plat app with Dart Flutter.
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        C++ Unreal Engine Offline world simulation for vision model training.
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        AI Virtual Try-On (VTON) with Python backend, Flutter app, and Arch Linux Apache PHP server.
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        An Algorithm that could find the elevation of any given point on the map of the planet in O(1) time using Nasa's ASTERv003 Data.
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Windows C# WPF music player [<NuxtLink to="https://github.com/nirex0/nightsky" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        C# Matrix Lib (For my personal learning) [<NuxtLink to="https://github.com/void-intelligence/Nomad" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        C# Deep Learning Library (Again for my own personal learning)[<NuxtLink to="https://github.com/void-intelligence/Vortex" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Windows C++ UI-Kit with Direct2D [<NuxtLink to="https://github.com/nirex0/warp-framework" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        C# WPF Primary Flight Display library (PFD) [<NuxtLink to="https://github.com/nirex0/npilothud" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>][<NuxtLink to="https://www.youtube.com/watch?v=gUlBPrUYmx8" target="_blank" class=""><svgo-youtube :style="{ color: 'var(--color-custom-text)' }" alt="Youtube Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Flutter Primary Flight Display library (PFD) [<NuxtLink to="https://github.com/nirex0/pfd" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>][<NuxtLink to="https://pub.dev/packages/pfd" target="_blank" class=""><svgo-dart :style="{ color: 'var(--color-custom-text)' }" alt="Dart Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Pytorch Openpose Integration for ComfyUI [<NuxtLink to="https://github.com/nirex0/ComfyUI_pytorch_openpose" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Youtube C++ Tutorial Series | Unreal Engine C++ Tutorials [<NuxtLink to="https://www.youtube.com/@Nirex_" target="_blank" class=""><svgo-youtube :style="{ color: 'var(--color-custom-text)' }" alt="Youtube Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Ransomware Virus
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Undresser AI
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        Remote Access Toolkit (RAT)
+                    </li>
+                    <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
+                        C++ data steganography app from scratch.
+                    </li>
+                </ol>
+
+                <p class="text-white text-left text-xl mb-0 mt-8 max-w-2xl mx-auto">
+                    So you see I can do pretty much whatever task it is.
                 </p>
                 <p class="text-white text-left text-xl mb-8 max-w-2xl mx-auto">
                     Learning is my main strength.
                 </p>
-        
-                
 
 
                 <figure class="max-w-screen-md mx-auto text-center">
@@ -117,6 +171,8 @@
 </template>
 
 <script setup>
+import { FileX } from 'lucide-vue-next'
+
 
 const downloadCV = () => {
     const link = document.createElement('a')
