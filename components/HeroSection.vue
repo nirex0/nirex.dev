@@ -59,7 +59,7 @@
                     Full Stack Software Engineer
                 </h2>
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
-                    A Dev dude who installed linux when he was 13 and deleted his entire data by accident. Learning about Programming / Hacking / AI / Game Development / Web Development / Mobile Development / Desktop Development since 2011.
+                    A dev dude who installed linux when he was 13 and deleted his entire data by accident. Learning about Programming / Hacking / AI / Game Development / Web Development / Mobile Development / Desktop Development since 2011.
                 </p>
                 
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
@@ -67,7 +67,7 @@
                 </p>
 
                 <p class="text-white text-left text-md mb-8 max-w-2xl mx-auto">
-                    If I want to say more, then here's C++, C#, Java, Python, Dart, Vue, TS, JS, HTML, CSS, SQL, NoSQL, Containers, Microservices, Monoliths, Message Broker, Web Tech, AI Tech, WinAPI, Unreal Engine, All Platforms, Algorithm design, Malware, Blockchain, Encryption Algorithms, Malware Analysis / Design, Code Obfuscation, and more.
+                    If I want to say more, then here's C++, C#, Java, Python, Dart, Vue, TS, JS, HTML, CSS, SQL, NoSQL, Containers, Microservices, Monoliths, Message Broker, Web Tech, Mathematical AI Tech, Computer Vision, WinAPI, Unreal Engine, All Platforms, Algorithm design, Malware, Blockchain, Encryption Algorithms, Malware Design techniques, Code Obfuscation, and more.
                 </p>
                 <ol class="list-decimal list-inside">
                 
@@ -112,7 +112,7 @@
                         Ransomware Virus
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        Undresser AI
+                        Undresser AI | Python Flutter Linux Apache PHP App
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
                         Remote Access Toolkit (RAT)
