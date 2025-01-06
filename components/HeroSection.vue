@@ -90,7 +90,7 @@
                         C# Matrix Lib (For my personal learning) [<NuxtLink to="https://github.com/void-intelligence/Nomad" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>][<NuxtLink to="https://www.nuget.org/packages/VI-Nomad" target="_blank" class=""><svgo-nuget :style="{ color: 'var(--color-custom-text)' }" alt="Nuget Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
-                        C# Deep Learning Library (Again for my own personal learning)[<NuxtLink to="https://github.com/void-intelligence/Vortex" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
+                        C# Deep Learning Library (Again for my own personal learning) [<NuxtLink to="https://github.com/void-intelligence/Vortex" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
                     </li>
                     <li class="text-white text-left text-xl mb-2 max-w-2xl mx-auto">
                         Windows C++ UI-Kit with Direct2D [<NuxtLink to="https://github.com/nirex0/warp-framework" target="_blank" class=""><svgo-github :style="{ color: 'var(--color-custom-text)' }" alt="Github Icon" class="inline transition-colors duration-1000"/></NuxtLink>]
